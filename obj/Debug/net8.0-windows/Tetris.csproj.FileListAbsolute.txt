@@ -1,0 +1,42 @@
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris_MarkupCompile.cache
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris_MarkupCompile.lref
+C:\Users\Windows\source\repos\Tetris\bin\Debug\net8.0-windows\Tetris.exe
+C:\Users\Windows\source\repos\Tetris\bin\Debug\net8.0-windows\Tetris.deps.json
+C:\Users\Windows\source\repos\Tetris\bin\Debug\net8.0-windows\Tetris.runtimeconfig.json
+C:\Users\Windows\source\repos\Tetris\bin\Debug\net8.0-windows\Tetris.dll
+C:\Users\Windows\source\repos\Tetris\bin\Debug\net8.0-windows\Tetris.pdb
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris.g.resources
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris.AssemblyInfoInputs.cache
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris.AssemblyInfo.cs
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris.csproj.CoreCompileInputs.cache
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris.dll
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\refint\Tetris.dll
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris.pdb
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris.genruntimeconfig.cache
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\ref\Tetris.dll
+C:\Users\Windows\source\repos\Tetris\obj\Debug\net8.0-windows\Tetris_Content.g.cs
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\bin\Debug\net8.0-windows\Tetris.exe
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\bin\Debug\net8.0-windows\Tetris.deps.json
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\bin\Debug\net8.0-windows\Tetris.runtimeconfig.json
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\bin\Debug\net8.0-windows\Tetris.dll
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\bin\Debug\net8.0-windows\Tetris.pdb
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\App.g.cs
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris_Content.g.cs
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris_MarkupCompile.cache
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris_MarkupCompile.lref
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\MainWindow.baml
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris.g.resources
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris.AssemblyInfoInputs.cache
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris.AssemblyInfo.cs
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris.csproj.CoreCompileInputs.cache
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris.dll
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\refint\Tetris.dll
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris.pdb
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\Tetris.genruntimeconfig.cache
+D:\Nhi\Học tập\CNTT\C#\Nhóm 14\Xếp gạch\obj\Debug\net8.0-windows\ref\Tetris.dll

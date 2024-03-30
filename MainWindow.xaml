@@ -1,0 +1,109 @@
+﻿<Window x:Class="Tetris.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tetris"
+        mc:Ignorable="d"
+        
+        Title="Tetris" Height="600" Width="800"
+        MinWidth="600" MinHeight="600"
+        Foreground="White"
+        FontFamily="Segoe UI Light" FontSize="28"
+        KeyDown="Windown_KeyDown"> <!-- Trình xử lý sự kiện từ bàn phím -->
+
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <!-- Chia hai hàng -->
+            <!-- Tự động co dãn cho vừa với nội dung bên trong -->
+            <RowDefinition Height="auto"/>
+            
+            <!-- Chiếm hết phần còn lại -->
+            <RowDefinition Height="*"/> 
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <!-- Chia 3 cột -->
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+
+        <!-- Nền trò chơi, lấy từ thư mục có sẵn -->
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/Background.png"/>
+        </Grid.Background>
+
+        <!-- 1 phần tử trong WPF giúp tự động co dãn các phần tử con bên trong để vừa với kích thước -->
+        <Viewbox Grid.Row="1"
+                 Grid.Column="1"
+                 Margin="0,0,0,20">
+            <Canvas x:Name="GameCanvas"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Background="#101010"
+                    Width="250"
+                    Height="510"
+                    ClipToBounds="True"
+                    Loaded="GameCanvas_Loaded"/>
+        </Viewbox>
+        <!-- ClipToBounds = true để đảm báo các phần tử trong canvas tròi ra sẽ bị cắt -->
+        
+        <!-- Khối văn bản để hiển thị điểm số của trò chơi -->
+        <TextBlock x:Name="ScoreText"
+                   Grid.Row="0"
+                   Grid.Column="1"
+                   Text="Score: "
+                   Margin="0, 10"
+                   TextAlignment="Center"/>
+        
+        <!-- Khối văn bản có tên là Hold để hiển thị khối đang bị giữ -->
+        <StackPanel Grid.Row="1"
+                    Grid.Column="0"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right">
+            <TextBlock Text="Hold"
+                       TextAlignment="Center"/>
+            <Image x:Name="HoldImage"
+                   Margin="20"
+                   Width="125"/>
+        </StackPanel>
+
+        <!-- Khối văn bản có tên là Next để hiển thị khối tiếp theo sẽ xuất hiện -->
+        <StackPanel Grid.Row="1"
+                    Grid.Column="2"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Left">
+            <TextBlock Text="Next"
+                       TextAlignment="Center"/>
+            <Image x:Name="NextImage"
+                   Margin="20"
+                   Width="125"/>
+        </StackPanel>
+
+        <!-- Menu kết thúc trò chơi -->
+        <Grid x:Name="GameOverMenu"
+              Background="#CC000000"
+              Grid.RowSpan="2"
+              Grid.ColumnSpan="3"
+              Visibility="Hidden">
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <TextBlock Text="Game Over"
+                           FontSize="48"
+                           TextAlignment="Center"/>
+                <TextBlock x:Name="FinalScoreText"
+                           Text="Score: "
+                           FontSize="36"
+                           TextAlignment="Center"/>
+                <Button Content="Play Again"
+                        Background="LightGreen"
+                        Margin="0,20,0,0"
+                        Padding="5"
+                        Click="PlayAgain_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
